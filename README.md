@@ -1,7 +1,10 @@
-# Docker Compose Project - Task Manager Application
+# Docker Task - Full Stack Application
 
-A simple full-stack application demonstrating Docker and Docker Compose with a Node.js backend and vanilla JavaScript frontend.
+A comprehensive full-stack application demonstrating Docker and Docker Compose with a Node.js backend and vanilla JavaScript frontend. This project showcases containerization, orchestration, and modern web development practices.
+<img width="1920" height="1080" alt="Screenshot 2025-10-18 114912" src="https://github.com/user-attachments/assets/db4936f4-3692-433d-b347-715fd4df2637" />
 
+<img width="1920" height="1080" alt="Screenshot 2025-10-18 114657" src="https://github.com/user-attachments/assets/f126f90f-4194-4356-91d3-ba6b88270341" />
+<img width="1920" height="1080" alt="Screenshot 2025-10-18 114745" src="https://github.com/user-attachments/assets/ddcb897d-0430-40b9-b4db-df2e11795f6a" />
 
 
 ## 📋 Project Overview
@@ -47,7 +50,7 @@ This project consists of:
 ## 📁 Project Structure
 
 ```
-docker_ComposeProject/
+docker-task/
 ├── backend/
 │   ├── server.js           # Express server
 │   ├── package.json        # Backend dependencies
@@ -62,6 +65,10 @@ docker_ComposeProject/
 │   └── .dockerignore      # Files to exclude from build
 ├── docker-compose.yml     # Docker Compose configuration
 ├── .gitignore            # Git ignore rules
+├── PROJECT_SUMMARY.md    # Project overview
+├── QUICK_START.md        # Quick start guide
+├── SCREENSHOTS_GUIDE.md  # Screenshots documentation
+├── SUBMISSION_CHECKLIST.md # Submission checklist
 └── README.md             # This file
 ```
 
@@ -83,8 +90,8 @@ docker-compose --version
 ### 1. Clone the Repository
 
 ```bash
-git clone <your-repository-url>
-cd docker_ComposeProject
+git clone https://github.com/MuhammadShayanUmarX/docker-task.git
+cd docker-task
 ```
 
 ### 2. Build and Run with Docker Compose
@@ -231,7 +238,7 @@ git commit -m "Initial commit: Docker Compose project with backend and frontend"
 
 ```bash
 # Add remote repository
-git remote add origin https://github.com/YOUR_USERNAME/docker-compose-task-manager.git
+git remote add origin https://github.com/MuhammadShayanUmarX/docker-task.git
 
 # Push to GitHub
 git branch -M main
@@ -383,8 +390,8 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## 👤 Author
 
-Your Name
-- GitHub: [@yourusername](https://github.com/yourusername)
+Muhammad Shayan Umar
+- GitHub: [@MuhammadShayanUmarX](https://github.com/MuhammadShayanUmarX)
 
 ## 🤝 Contributing
 
@@ -402,7 +409,5 @@ Give a ⭐️ if this project helped you learn Docker and Docker Compose!
 
 ---
 
-**Note**: Make sure to replace `<your-repository-url>` and `YOUR_USERNAME` with your actual GitHub information before submitting.
+**Note**: This project is ready to use with the GitHub repository at https://github.com/MuhammadShayanUmarX/docker-task.git
 
-#   d o c k e r - t a s k  
- 
